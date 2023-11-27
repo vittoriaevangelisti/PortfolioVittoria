@@ -1,0 +1,179 @@
+body {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+body {
+    font-size: 100%;
+    /* Define o tamanho base da fonte como 100% */
+    background: linear-gradient(68.15deg, #589189 16.62%, #538d60 85.61%);
+    /* Aplica um gradiente linear como plano de fundo */
+}
+/* Estilizando a seção do cabeçalho */
+.cabecalho {
+    display: flex;
+    /* Utiliza flexbox para o layout */
+    flex-direction: row;
+    /* Organiza os elementos filhos em uma linha */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    justify-content: space-around;
+    /* Distribui espaço ao redor dos elementos filhos */
+    padding: 30px ;
+    /* Adiciona preenchimento */
+    border-bottom: 0.4px solid #ffffff;
+    /* Adiciona uma borda superior */
+    margin:0px 80px ;
+
+}
+.cabecalho-menu {
+    display: flex;
+    /* Utiliza flexbox para o layout do menu */
+    gap: 32px;
+    /* Adiciona espaçamento entre os itens do menu */
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    /* Utiliza a família de fontes 'Sarala' */
+    color: #ffffff;
+    /* Define a cor do texto */
+    font-weight: 400;
+    /* Define o peso da fonte */
+    font-size: 18px;
+    /* Define o tamanho da fonte */
+}
+
+
+.Título {
+    font-family: Segoe UI, sans-serif;
+    margin:10px 80px ;
+    padding:0px 0px ;
+    height: 45px ;
+    color: #ffffff;
+}
+.Descrição {
+    font-family: Cambria, serif ;
+    margin:-30px 80px ;
+    padding:35px 10px ;
+    width: 820px ;
+    height: 50px ;
+    color: #ffffff;
+}
+.Competências {
+    font-family: Segoe UI, sans-serif;
+    margin:5px 80px ;
+    padding:20px 0px ;
+    position: relative;
+    bottom: -135px ;
+    color: #ffffff ;
+
+}
+        .Photoshop {
+        margin:0px 5px ;
+        padding:5px 5px ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+        }
+        .Illustrator {
+        margin:0px 5px ;
+        padding:5px 5px  ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+         }
+        .InDesign {
+        margin:0px 5px ;
+        padding:5px 5px  ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+        }
+    .Lightroom {
+        margin:0px 5px ;
+        padding:5px 5px  ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+        }
+    .Premiere {
+        margin:0px 5px ;
+        padding:5px 5px  ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+        }
+    .After {
+        margin:0px 5px ;
+        padding:5px 5px  ;
+        position: relative;
+        right: -80px;
+        bottom: -135px
+        }
+
+.button {
+    background-color: rgb(76, 175, 117); /* Green */
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer ;
+  transition:background-color 0.2s ;
+  position: relative;
+   top: 15px;
+   right: -270px;
+  }
+  button:hover {
+    background-color: rgb(49, 128, 89); }
+
+  .Foto {
+    float: right;
+    padding: 0px 20px;
+    position: relative;
+   top: -440px;
+   right: 50px;
+  }
+  .conteudo-secundario-titulo {
+    /* Estilizando o título da seção secundária */
+    border-top: 0.4px solid #000000;
+    /* Adiciona uma borda superior */
+    padding-top: 48px;
+    /* Adiciona preenchimento superior */
+    font-family: 'Righteous', cursive;
+    /* Utiliza a família de fontes 'Righteous' */
+    font-weight: 400;
+    /* Define o peso da fonte */
+    font-size: 24px;
+    /* Define o tamanho da fonte */
+    color: #FFF2EF;
+    /* Define a cor do texto */
+    margin-bottom: 16px;
+    /* Adiciona margem inferior */
+  }
+  .tecLogo {
+    display: flex;
+    /* Utiliza flexbox para o layout do menu */
+    flex-direction: row;
+    /* Organiza os elementos filhos em uma linha */
+
+}
+
+/* Estilizando a seção do rodapé */
+.rodape {
+    padding: 0px;
+    margin: -250px 80px ;
+    /* Adiciona preenchimento */
+    border-top: 0.4px solid #FFF2E7;
+    /* Adiciona uma borda superior */
+    font-family: Cambria, serif;
+    font-size: 150%;
+    color: #ffffff
+}
